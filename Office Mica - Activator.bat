@@ -21,7 +21,7 @@ REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfi
 timeout /t 1 /nobreak >nul
 
 Echo Enabling Menu Refresh V2 (Microsoft.Office.UXPlatform.FluentSVMenuRefresh_v2)
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\word"  "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\powerpoint" /v "Microsoft.Office.UXPlatform.FluentSVMenuRefresh_v2" /t REG_SZ /d true /f
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\word" /v "Microsoft.Office.UXPlatform.FluentSVMenuRefresh_v2" /t REG_SZ /d true /f
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\powerpoint" /v "Microsoft.Office.UXPlatform.FluentSVMenuRefresh_v2" /t REG_SZ /d true /f
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\excel" /v "Microsoft.Office.UXPlatform.FluentSVMenuRefresh_v2" /t REG_SZ /d true /f
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\onenote" /v "Microsoft.Office.UXPlatform.FluentSVMenuRefresh_v2" /t REG_SZ /d true /f
